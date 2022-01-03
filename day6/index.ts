@@ -41,4 +41,4 @@ const main = (lines: Array<number>, days: number): number => {
     return fishState.reduce((fish, totalFish) => fish + totalFish)
 }
 console.log(`answer part 1:  ${main(lines, 80)}`)
-console.log(`answer part 1:  ${main(lines, 256)}`)
+console.log(`answer part 2:  ${main(lines, 256)}`)
